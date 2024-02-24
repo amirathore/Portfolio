@@ -13,7 +13,7 @@
 html,
 body {
     width: 100%;
-    background-color: #F2F2F2;
+    background-color: #fff;
     height: 100%;
 }
 
@@ -40,21 +40,17 @@ body {
     position: relative;
     display: inline-block;
     width: 100%;
-    height: 100vh;    color: #323232;
+    height: 100vh;  
+    color: #323232;
 
 }
 
-#page1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-}
+
 
 
 #text-container {
     /* background-color: hwb(210 12% 78% / 0.985); */
-    background-color: #f2f2f2fd;
+    background-color: #fff;
     width: 100%;
     position: absolute;
     top: 0;
@@ -237,6 +233,60 @@ body {
     margin-bottom: 1vw;
 }
 
+#page-add{
+    width: 100%;
+    height: 100vh;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page-add #texi-text{
+    text-align: center;
+    /* background-color: blanchedalmond; */
+}
+#page-add h3{
+    font-size: 5vw;
+    font-family: thin;
+}
+#page-add #texi-text p{
+    font-size: 2.1vw;
+    font-family: sans-serif;
+}
+#page-add #types{
+    /* background-color: red; */
+    /* padding-left: 25vw; */
+    display: flex;
+    gap: 5vw;
+    margin-top: 4vw;
+}
+#page-add .texi h4{
+    font-size: 2.2vw;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: .5vw;
+}
+#page-add .num{
+    height: 2.5vw;
+    width: 2.5vw;
+    background-color: #000;
+    color: white;
+    display: flex;align-items: center;justify-content: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 1.5vw;
+    font-size: 1.6vw;
+    font-weight: 800;
+}
+
+#page-add #res{
+    margin-bottom: 2vw;
+    display: flex;
+}
+#page-add #res p{
+    font-size: 1.1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #page3 {
     width: 100%;
     height: 100vh;
@@ -384,23 +434,202 @@ body {
     height: 100%;
     /* background-color: red; */
     padding: 2vw;
+    padding-left: 7vw;
 }
 .project{
     height: 35vw;
-    border-radius: 1vw;
+    /* border-radius: 1vw; */
     width: 50vw;
     background-color: rgba(27, 25, 25, 0.546);
-    margin-top: 7vw;
+    margin-top: 5vw;
     overflow: hidden;
 }
-.project:nth-child(2){
+.text-img #p2{
+    width: 45vw;
+    height: 28vw;
+}
+.text-img:nth-child(2){
     margin-left: 40vw;
 }
-.project:nth-child(4){
-    margin-left: 40vw;
+.text-img:nth-child(4){
+    margin-left: 30vw;
 }
 .project img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
+.text-img h2{
+    font-size: 3vw;
+    font-family: thin;
+    margin-top: 1vw;
+}
+
+.text-img button{
+    padding: .5vw 1vw;
+    display: flex;align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+    font-size: .61vw;
+    background-color: transparent;
+    border: 1px solid rgb(101, 53, 5);
+    text-transform: uppercase;
+    margin-left: .3vw;
+    color: rgb(101, 53, 5);
+}
+
+.linkedin{
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-bottom: 9vw;
+}
+.button-bg{
+    border-radius: 200px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #32323252;
+    transition: all .6s cubic-bezier(0, .89, .41, 1);
+
+}
+.button-bg h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #0000009b;
+}
+.button-bg h4 span{
+    color: #14CF93;
+    font-family: nex;
+}
+.button-bg:hover {
+    background-color: #fff;
+    color: #000;
+}
+.button-bg:hover h4{
+    color: #000;
+    font-weight: 200;
+}
+
+#page5{
+    /* width: 100%;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; */
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;  
+    color: #323232;}
+#page5 h2{
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#page5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+#page5 #over-text{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    background-color: #ffffff46;
+    overflow: hidden;
+
+}
+
+.c-button {
+    color: #000;
+    font-weight: 450;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: thin;
+    padding: 2vw 7vw;
+    margin-top:7vw;
+    margin-bottom:10vw;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .c-button--gooey {
+    color: #323232;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #323232;
+    border-radius: 200px;
+    overflow: hidden;
+    position: relative;
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+  }
+  
+  .c-button--gooey .c-button__blobs div {
+    background-color: #fff;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(1) {
+    left: -5%;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+  }
+  
+  .c-button--gooey .c-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+  }
+  
+  .c-button--gooey:hover {
+    color: #323  ;
+  }
+  
+  .c-button--gooey:hover .c-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+  }
