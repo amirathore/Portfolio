@@ -35,7 +35,7 @@ function locomotive(){
     
 }
 
-locomotive()
+// locomotive()
 
 
 function page1Animation() {
