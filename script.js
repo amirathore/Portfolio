@@ -119,79 +119,75 @@ function page1Animation() {
 page1Animation()
 
 
-    //   gsap.from(".project #image1",{
-    //     height:"0%",
+  
+    // var ti = gsap.timeline();
+    // ti.from("#page1 .impo",{
+    //     scale:0,
     //     opacity:0,
-        
+    //     stagger:1
     // })
-    var ti = gsap.timeline();
-    ti.from("#page1 .impo",{
-        scale:0,
-        opacity:0,
-        stagger:1
-    })
-    ti.to(".project #image1",{
-        opacity:1,
-        height:"100%",
-        scrollTrigger :{
-            trigger: " #p1",
-            scroller: "#main",
-            // markers: true,
-            start: "top 40%",
-            end : "top 40%",
-            scrub:1,
-            pin:true,
-        },
-    }) 
-    ti.to(".project #image2",{
-        opacity:1,
-        height:"100%",
-        scrollTrigger :{
-            trigger: " #p2",
-            scroller: "#main",
-            // markers: true,
-            start: "top 40%",
-            end : "top 40%",
-            scrub:1,
-            pin:true,
-        },
-    }) 
-       ti.to(".project #image3",{
-        opacity:1,
-        height:"100%",
-        scrollTrigger :{
-            trigger: " #p3",
-            scroller: "#main",
-            // markers: true,
-            start: "top 40%",
-            end : "top 40%",
-            scrub:1,
-            pin:true,
-        },
-    })
-    ti.to(".project #image4",{
-        opacity:1,
-        height:"100%",
-        scrollTrigger :{
-            trigger: " #p4",
-            scroller: "#main",
-            // markers: true,
-            start: "top 40%",
-            end : "top 40%",
-            scrub:1,
-            pin:true,
-        },
-    })
-    ti.to(".project #image5",{
-        opacity:1,
-        height:"100%",
-        scrollTrigger :{
-            trigger: " #p5",
-            scroller: "#main",
-            // markers: true,
-            start: "top 40%",
-            end : "top 40%",
-            scrub:1,
-            pin:true,
-        },
-    })
+    // ti.to(".project #image1",{
+    //     opacity:1,
+    //     height:"100%",
+    //     scrollTrigger :{
+    //         trigger: " #p1",
+    //         scroller: "#main",
+    //         // markers: true,
+    //         start: "top 60%",
+    //         end : "top 60%",
+    //         scrub:1,
+    //         pin:true,
+    //     },
+    // }) 
+    // ti.to(".project #image2",{
+    //     opacity:1,
+    //     height:"100%",
+    //     scrollTrigger :{
+    //         trigger: " #p2",
+    //         scroller: "#main",
+    //         // markers: true,
+    //         start: "top 60%",
+    //         end : "top 60%",
+    //         scrub:1,
+    //         pin:true,
+    //     },
+    // }) 
+    //    ti.to(".project #image3",{
+    //     opacity:1,
+    //     height:"100%",
+    //     scrollTrigger :{
+    //         trigger: " #p3",
+    //         scroller: "#main",
+    //         // markers: true,
+    //         start: "top 60%",
+    //         end : "top 60%",
+    //         scrub:1,
+    //         pin:true,
+    //     },
+    // })
+    // ti.to(".project #image4",{
+    //     opacity:1,
+    //     height:"100%",
+    //     scrollTrigger :{
+    //         trigger: " #p4",
+    //         scroller: "#main",
+    //         // markers: true,
+    //         start: "top 60%",
+    //         end : "top 60%",
+    //         scrub:1,
+    //         pin:true,
+    //     },
+    // })
+    // ti.to(".project #image5",{
+    //     opacity:1,
+    //     height:"100%",
+    //     scrollTrigger :{
+    //         trigger: " #p5",
+    //         scroller: "#main",
+    //         // markers: true,
+    //         start: "top 60%",
+    //         end : "top 60%",
+    //         scrub:1,
+    //         pin:true,
+    //     },
+    // })
